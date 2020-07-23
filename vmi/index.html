@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>VMI</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="hamburger">
+          <a id="options">
+            <i id="options-icon" class="fas fa-bars fa-4x" pressed="false"></i>
+          </a>
+        </div>
+        <div>
+          <h1>Tagger 1234</h1>
+        </div>
+      </div>
+      <div class="message">
+        <p>nothing to report</p>
+      </div>
+      <div class="body">
+        <div class="display">
+          <div class="result" id="result">
+            <div class="ID" id="playerInfo">
+              <p>Runner <span id="playerID">2345</span></p>
+              <p class="status"> <span id="playerStatus">IN</span></p>
+            </div>
+            <div class="checkpoint">
+              <p>0 (Start)</p>
+              <p><i class="fas fa-arrow-down"></i></p>
+              <p>1 (SSC)</p>
+            </div>
+          </div>
+          <div class="buttons">
+            <button type="button" ontouchstart="">tag</button>
+            <button type="button" ontouchstart="">checkpoint</button>
+          </div>
+          <div class="search">
+            <p id="search" value=""></p>
+            <a id="clear" class="keypad" value="clear"><i class="fas fa-times-circle"></i></a>
+          </div>
+        </div>
+        <div class="controls">
+          <button type="button" class="keypad" value="1" ontouchstart="">1</button>
+          <button type="button" class="keypad" value="2" ontouchstart="">2</button>
+          <button type="button" class="keypad" value="3" ontouchstart="">3</button>
+          <button type="button" class="keypad" value="4" ontouchstart="">4</button>
+          <button type="button" class="keypad" value="5" ontouchstart="">5</button>
+          <button type="button" class="keypad" value="6" ontouchstart="">6</button>
+          <button type="button" class="keypad" value="7" ontouchstart="">7</button>
+          <button type="button" class="keypad" value="8" ontouchstart="">8</button>
+          <button type="button" class="keypad" value="9" ontouchstart="">9</button>
+          <button type="button" class="keypad" value="back" ontouchstart="">back</button>
+          <button type="button" class="keypad" value="0" ontouchstart="">0</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+body {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+p {
+    color: white;
+}
+a {
+    color: white;
+}
+h2 {
+    /*color: #90EE90;*/
+    color: white;
+}
+h3 {
+    color: white;
+}
+table {
+    color: white;
+    border-collapse:seperate;
+    border-spacing:0 10px;
+}
+tr {
+    background-color: #242424;
+}
+td {
+    padding: 10px;
+}
+.login {
+    padding-top:30px;
+    justify-content: center;
+}
+button {
+    background-color: #90EE90;
+    border:1px solid #90EE90;
+    padding:3px;
+    padding-right:10px;
+    padding-left:10px;
+    border-radius:10px;
+}
+button:disabled {
+    background-color:#D3D3D3;
+    border:1px solid #D3D3D3;
+}
+.login-header {
+    color: #90EE90;
+}
+.form {
+    justify-content: center;
+}
+.tag-search {
+    border:2px solid white;
+    border-radius:5px;
+    height: 25px;
+    width: 100px;
+}
+.container {
+    display: flex;
+    width: 100%;
+}
+.master {
+    display: none;
+    padding-right: 10px;
+}
+.header {
+    background-color: #333333;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 50px;
+}
+.title-text {
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+.nav-text {
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+.back-link {
+    padding-right: 10px;
+}
+.fields {
+    padding:20px;
+}
+.tagged-box {
+    height: 100px;
+    padding-top: 10px;
+    color:#90EE90;
+}
+.runner-message {
+    color:#90EE90;
+}
+.master-container {
+    display:grid;
+    width: 100%;
+}
+.master-main {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.master-stats {
+    padding-left: 20px;
+    padding-right:20px;
+}
+.master-middle {
+    padding: 20px;
+}
+.master-header {
+    background-color: #333333;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.change-log {
+    color:#90EE90;
+    padding-top:15px;
+}
